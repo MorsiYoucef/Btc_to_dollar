@@ -1,4 +1,5 @@
 from forex_python.bitcoin import BtcConverter
 b = BtcConverter()
-print(b.convert_to_btc(60000,'EUR'),"Btc")
+n = int(input("enter the mount :"))
+print(b.convert_to_btc(n,'USD'),"Btc")
 
